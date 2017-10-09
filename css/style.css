@@ -17,8 +17,17 @@ font-family: 'Roboto', sans-serif;
     font-size: 16px;
     border-radius: 5px;
 }
+
+#date{
+    margin-left: 10%;
+}
+select{
+    margin-bottom: 5px;
+}
 td{
     padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
 }
 .heading {
     text-align: center;
@@ -32,10 +41,63 @@ td{
 }
 h2 {
     letter-spacing: 4px;
-
+    margin-bottom: 20px;
 }
 
 th {
     font-weight: bolder;
     letter-spacing: 3px;
+}
+
+.forexBox{
+    margin-right: -20%;
+    margin-left: -10%;
+    border: 1px black solid;
+    border-radius: 5px;
+    background: #fff;
+    margin-top: 9em;
+    
+
+}
+
+.forexTitle{
+    text-align: center;
+    height: 30%;
+    background: #42DCA3;
+    padding-top: 1%;
+    
+}
+.forexTitle i{
+    background: #fff;
+    padding: 4px;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+.rate-table{
+    overflow:scroll;
+    height: 15.5em;
+    width: 100%;
+    overflow:auto;
+}
+.rate-table-box{
+    margin-top: 6em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.forexTitle-table{
+    text-align: center;
+    height: 30%;
+    background: #42DCA3;
+    margin-top:  0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.table-heading
+{
+    font-size: 1.3em;
+    
 }
