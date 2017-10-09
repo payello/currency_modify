@@ -1,0 +1,77 @@
+//function renderHTML(data) {
+//    var output = "";
+//    for (var key in data)
+//        {
+//            output += "<p>" + data[key] + "</p>"
+//        }
+//    document.getElementById("forex-info").innerHTML = output;
+//    
+//tableContainer.insertAdjacentHTML('beforeend', htmlString); 
+//}
+
+
+//
+//function table () {
+//// Get Forex currency code from html
+//var forexRate = document.getElementById("currencyList").value;
+//// AJAX http request
+//var xhr = new XMLHttpRequest();
+//// API data source
+//var myData = "http://api.fixer.io/latest";
+////AJAX GET request and send
+//xhr.open("GET", myData, true);
+//xhr.send();
+//
+//    xhr.onreadystatechange = function() {
+//        if(xhr.status == 200)
+//            {
+//                var responseObject = xhr.responseText;
+//                var result = JSON.parse(responseObject);
+//                var unit = result.rates[value];
+////                document.getElementById("rateList").innerHTML = result.value;
+//                document.getElementById("rateList").innerHTML = result.rates;
+//            }
+//    }
+// + " " + obj.currency[0].long;
+
+//};
+console.log("Peter")
+       
+//        <div>
+//        <p id="currencyList" class="currencyList">Australia</p>
+//        <p id="rateList" class="event" value="AUD"></p>
+//        <p></p>
+//        
+
+
+
+//myData = JSON.parse(myRequest.responseText);
+//
+
+//var btn = document.getElementById("btn");
+//btn.addEventListener("click", function(){
+//var ourRequest = new XMLHttpRequest();
+//var myData = "http://api.fixer.io/latest".rates;
+//ourRequest.open('GET', myData, true);
+//ourRequest.onload = function loading() {
+//    var ourData = JSON.parse(ourRequest.responseText);
+//    renderHTML(ourData);
+//    function renderHTML(data) {
+//    var output = "";
+//    for (var key in data)
+//        {
+//            output += "<p>" + key + output + "</p>"
+//        }
+//    }
+//};
+
+
+//
+//myList = document.getElementById("stepsD")
+//myList.innerHTML = "";
+//
+//for (var i = 0; i < myData.journeys[1].legs.length; i++) {
+//    
+//    myList.innerHTML += " -" +
+//        myData.journeys[1].legs[i].instruction.summary ;
+//}
