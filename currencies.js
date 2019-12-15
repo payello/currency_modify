@@ -35,11 +35,6 @@ var currency = {
 "South Africa Rand": "ZAR"
 };
 
-//for (var prop in currency) {
-//    console.log('currency.' + prop, '=', 'currency[prop]');
-//    
-//}
-
 function setup() {
     createCanvas(200,200);
     loadJSON('http://api.openweathermap.org/data/2.5/weather?q=London&id=524901&APPID=661c83108c2653b9dfa1cafb96dfd281')

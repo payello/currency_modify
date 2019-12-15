@@ -1,0 +1,20 @@
+{
+  "name": "currencyconverter",
+  "version": "1.0.0",
+  "description": "This is my currency converter app",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/payello/currency_modify.git"
+  },
+  "author": "Peter Ayello-Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/payello/currency_modify/issues"
+  },
+  "homepage": "https://github.com/payello/currency_modify#readme"
+}
